@@ -261,6 +261,7 @@ body {
     border-radius: 40px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .all .phone .inside .send-message p {
@@ -269,9 +270,15 @@ body {
     opacity: 0.3;
 }
 
+.all .phone .inside .send-message {
+    border: none;
+    background-color: #fff;
+}
+
 .all .phone .inside .send-message .send {
-    margin-left: 147px;
+    margin-left: 140px;
     font-size: 30px;
+    margin-right: 10px;
 }
 
 .all .text {
